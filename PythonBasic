@@ -1,0 +1,35 @@
+#judge
+i = 3
+if i == 3:
+    print("this number is three")
+else:
+    print("this number is not three")
+
+#loop
+while True:
+    print("hello,world")
+
+for i in range(10):
+    print("hello,world",i)
+    
+#keyword
+import keyword
+keyword.kwlist
+
+#import 
+import ModuleName
+form ModuleName import FunctionName
+form ModuleName import *
+form ModuleName import FunctionName as AnotherName
+
+'''datatype
+list==列表,int==整数,dict==字典,float==小数,tuple==元组'''
+
+'''operator
++:1+4=5,-:5-1=4,*:5*2=10,/:10/4=2.5 return float,//:10//4=2 return int,%:9%2=1 取余数,9/2等于4,多了一个1,**:8**2=64'''
+>>>a =[1,2,3,4,5]
+>>>2 in a
+True
+>>>a =[1,2,3,4,5]
+>>>6 in a
+False
